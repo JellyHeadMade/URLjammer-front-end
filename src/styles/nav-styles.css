@@ -1,0 +1,26 @@
+.nav-bar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-bar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5ba4cf;
+    width: 100%;
+    height: 55px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-link-right-link {
+    color:blanchedalmond;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.nav-bar-left {
+    font-family: 'Lobster', cursive;
+}

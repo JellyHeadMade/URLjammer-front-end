@@ -1,0 +1,65 @@
+.nav-bar-left {
+    font-family: 'Lobster', cursive;
+}
+
+.main-title {
+    color: blanchedalmond;
+    text-decoration: none;
+    font-size: 2em;
+    width: 40%;
+    margin-left: 20px;
+}
+
+.form-input{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid goldenrod;
+    outline: none;
+    transition: 1s;
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+}
+
+input:focus {
+    border-bottom: 2px solid #5ba4cf;
+}
+
+.btn{
+    cursor: pointer;
+    width: 127px;
+    height: 30px;
+    font-size: 1em;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-left: 35px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid transparent;
+    transition: all 0.5s ease-in-out;
+    background-color: #5ba4cf;
+    color:blanchedalmond;
+    text-align: center;
+    text-justify: auto;
+    transition: 0.6s;
+}
+.btn {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 35px;
+}
+
+.btn:hover{
+    background-color: goldenrod;
+    color: black;
+}
+
+.response-text{
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 2em;
+    font-family: 'Lobster', cursive;
+}
