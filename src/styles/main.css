@@ -1,0 +1,141 @@
+
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    /* font-family: 'montserrat'; */
+}
+
+body {
+    overflow-x: hidden;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.app {
+    margin-top: 2rem;
+    display: grid;
+    justify-items: center;
+}
+
+.nav-bar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-input {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 70%;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 35px;
+}
+
+.nav-bar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5ba4cf;
+    width: 100%;
+    height: 55px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-bar-left {
+    font-family: 'Lobster', cursive;
+}
+
+.main-title {
+    color: blanchedalmond;
+    text-decoration: none;
+    font-size: 2em;
+    width: 40%;
+    margin-left: 20px;
+}
+
+.nav-link-right-link {
+    color:blanchedalmond;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.form-input{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid goldenrod;
+    outline: none;
+    transition: 1s;
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+}
+
+input:focus {
+    border-bottom: 2px solid #5ba4cf;
+}
+
+.btn{
+    cursor: pointer;
+    width: 127px;
+    height: 30px;
+    font-size: 1em;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-left: 35px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid transparent;
+    transition: all 0.5s ease-in-out;
+    background-color: #5ba4cf;
+    color:blanchedalmond;
+    text-align: center;
+    text-justify: auto;
+    transition: 0.6s;
+}
+
+.btn:hover{
+    background-color: goldenrod;
+    color: black;
+}
+
+.response-text{
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 2em;
+    font-family: 'Lobster', cursive;
+}
+
+.all-link-url-guide{
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color: goldenrod;
+}
+
+.jammed-links{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
