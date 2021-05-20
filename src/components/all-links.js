@@ -38,7 +38,7 @@ export default class AllLinks extends Component {
                 <div className=''>
                     <p className='all-link-url-guide'>Jammed URL : Origninal URL</p>
                     {Object.keys(linkss).map(function(key) {
-                        return <p className='jammed-links'>http://localhost:5000/{key} : {linkss[key]}</p>
+                        return <p key={key} className='jammed-links'>http://localhost:5000/{key} : {linkss[key]}</p>
                     })}
                 </div>
             : <div> You Seem to have no links shortended yet </div>

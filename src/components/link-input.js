@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import { NavLink } from 'react-router-dom';
 
 export default class LinkInput extends Component {
     constructor(){
@@ -55,7 +54,7 @@ export default class LinkInput extends Component {
 
         return(
             <div>
-                {this.state.linkShortended == false ?
+                {this.state.linkShortended === false ?
                 <form action='/link/add' method='POST' onSubmit={this.getMaybeSet} className="form-input">
                     <input
                     type="url"
